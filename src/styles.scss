@@ -1,0 +1,19 @@
+$bg-color: #111111ef;
+$txt-color: #555;
+
+body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+    background-color: $bg-color;
+    color:$txt-color;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20;
+}
